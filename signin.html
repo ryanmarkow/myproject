@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/signin.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="container">
+        <div class="login-box">
+          <div class="login-pole">
+            <div class="login-logo">
+              <img
+                title="logo"
+                src="https://suvorov-company.ru/public/img/44.png"
+                alt=""
+                class="logo"
+              />
+            </div>
+            <div class="login-input-box">
+              <div class="login-input">
+                <input type="email" name="email" placeholder="Введите E-mail" />
+                <input
+                  type="password"
+                  name="password"
+                  placeholder="Введите пароль"
+                />
+              </div>
+              <a href="#" class="createacc">Создать аккаунт</a>
+              <a href="#" class="pass">Забыли пароль?</a>
+              <div class="login-button">
+                <button id="openModal" type="submit"><span>Войти</span></button>
+              </div>
+            </div>
+          </div>
+          <div class="login-pole2">
+            <ul class="login-ul">
+              <li class="login-li">
+                <div class="login-li-img">
+                  <img
+                    title="people"
+                    src="./image//people-svgrepo-com.svg"
+                    alt=""
+                  />
+                </div>
+                <div class="login-li-text">
+                  Реферальная система!<br />
+                  <small>Получайте до 20% с каждого пополения счета.</small>
+                </div>
+              </li>
+              <li class="login-li">
+                <div class="login-li-img">
+                  <img
+                    title="Game Controller"
+                    src="./image/game-controller-svgrepo-com.svg"
+                    alt=""
+                  />
+                </div>
+                <div class="login-li-text">
+                  Управление лаунчером!<br />
+                  <small
+                    >Изменяй ссылки, название сервера и IP прямо у нас на
+                    сайте.</small
+                  >
+                </div>
+              </li>
+              <li class="login-li">
+                <div class="login-li-img">
+                  <img
+                    title="people"
+                    src="./image//people-svgrepo-com.svg"
+                    alt=""
+                  />
+                </div>
+                <div class="login-li-text">
+                  Обновление и актуальность!<br />
+                  <small>Получайте обновление продуктов каждые 3-5 дней.</small>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal">
+      <p>Ошибка</p>
+    </div>
+  </body>
+  <script src="./scripts/jquery-3.6.0.min.js"></script>
+  <script src="./scripts/sign.js"></script>
+</html>

@@ -1,0 +1,274 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-size: 18px;
+  overflow-x: scroll !important; /* прокрутка по горизонтали */
+  overflow-y: scroll !important; /* прокрутка по вертикали */
+  background: url(https://www.transparenttextures.com/patterns/dark-stripes-light.png);
+}
+.services {
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  width: 1380px;
+  height: 2950px;
+  margin: 50px;
+  margin-top: 20px;
+  margin-left: 80px;
+}
+.log {
+  position: relative;
+  top: 42px;
+  left: 60px;
+
+  color: rgba(143, 53, 252, 1);
+  font-weight: 900;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  transition: 300ms;
+}
+.comp {
+  border: 1px solid rgb(175, 114, 233);
+  border-radius: 5px;
+  width: 10px;
+  height: 20px;
+  background-color: rgb(175, 114, 233);
+  color: #fff;
+}
+.links {
+  position: relative;
+  left: 380px;
+  top: 20px;
+  margin: 20px;
+
+  text-decoration: none;
+  color: #333;
+  font-size: 20px;
+  transition: 300ms;
+  /*font-family: "Font", sans-serif;*/
+  font-family: "Roboto", sans-serif;
+  transition: 300ms;
+  font-size: 0;
+  animation: animfont 2s forwards;
+}
+@keyframes animfont {
+  0% {
+    font-size: 0;
+  }
+  100% {
+    font-size: 20px;
+  }
+}
+.links:hover {
+  color: rgba(143, 53, 252, 1);
+  border-bottom: 2px solid rgba(143, 53, 252, 1);
+}
+.popolnit {
+  position: absolute;
+  left: 1030px;
+  top: 55px;
+  /*border: 1px solid red;*/
+  border-radius: 10px;
+  padding: 15px 30px;
+  text-decoration: none;
+  /*background-color: red;*/
+  color: #fff;
+  background: linear-gradient(
+    132deg,
+    rgba(255, 53, 53, 1) 74%,
+    rgba(255, 136, 136, 1) 100%
+  );
+  font-family: "Roboto", sans-serif;
+  transition: 600ms;
+}
+.popolnit:hover {
+  transform: scale(1.1);
+}
+.personal {
+  position: absolute;
+  left: 1250px;
+  top: 55px;
+  /*border: 1px solid red;*/
+  border-radius: 10px;
+  padding: 15px 55px;
+  text-decoration: none;
+  /*background-color: red;*/
+  color: #fff;
+  background: linear-gradient(
+    132deg,
+    rgba(143, 53, 252, 1) 74%,
+    rgba(177, 114, 254, 1) 100%
+  );
+  font-family: "Roboto", sans-serif;
+  transition: 600ms;
+}
+.personal:hover {
+  transform: scale(1.1);
+}
+.linksi {
+  position: relative;
+  left: 350px;
+  top: 100px;
+  margin: 10px;
+  border: 1px solid red;
+  border-radius: 9px;
+  background-color: red;
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+  padding: 5px 5px;
+  text-align: center;
+  /*font-family: "Font", sans-serif;*/
+  font-family: "Roboto", sans-serif;
+  transition: 300ms;
+}
+.linksi:hover {
+  background-color: rgba(143, 53, 252, 1);
+  border: 1px solid rgba(143, 53, 252, 1);
+}
+.services__card {
+  margin-top: 130px;
+}
+.mod {
+  font-weight: 200;
+  font-size: 15px;
+  text-align: center;
+  margin-top: 30px;
+  color: #201f2e;
+  font-family: "Roboto", sans-serif;
+}
+.hr-washed {
+  margin: 10px 100px;
+  height: 3px;
+  border: none;
+  background: linear-gradient(
+    -135deg,
+    rgb(143, 53, 252) 25%,
+    #fff 50%,
+    rgb(255, 53, 53) 75%
+  );
+  animation: animat 3s ease infinite;
+  animation-direction: alternate;
+  background-size: 400% 400%;
+}
+@keyframes animat {
+  0% {
+    background-position: 0% 39%;
+  }
+  100% {
+    background-position: 100% 62%;
+  }
+}
+.product {
+  display: inline-block;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  width: 305px;
+  height: 430px;
+  margin-left: 35px;
+  margin-top: 30px;
+  -webkit-box-shadow: -1px 6px 8px 11px rgba(201, 208, 214, 0.2);
+  -moz-box-shadow: -1px 6px 8px 11px rgba(201, 208, 214, 0.2);
+  box-shadow: -1px 6px 8px 11px rgba(201, 208, 214, 0.2);
+}
+.product ul li {
+  list-style-type: none;
+}
+.product_photo {
+  overflow: hidden;
+}
+.product_photo img {
+  width: 300px;
+  height: 190px;
+  transition: 600ms;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.product_photo img:hover {
+  transform: scale(1.1);
+}
+.product_names {
+  margin-top: 10px;
+  text-align: center;
+  font-weight: bold;
+  color: #333;
+}
+.tes_tred {
+  width: 100px;
+  color: red;
+  font-size: 16px;
+}
+.product_infoitem {
+  margin-top: 20px;
+  color: #91949c;
+}
+.product__link {
+  text-decoration: none;
+  text-align: center;
+}
+.price {
+  margin-top: 20px;
+}
+.product-price-old {
+  margin-right: 180px;
+  color: #91949c;
+}
+.product-price-active {
+  margin-top: -17px;
+  margin-left: 180px;
+  color: rgb(143, 53, 252);
+  font-weight: 600;
+  font-size: 19px;
+  font-family: "Roboto", sans-serif;
+}
+.product-button {
+  display: flex;
+  width: 50%;
+  height: 35px;
+  background: rgb(143, 53, 252);
+  border-radius: 30px;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-weight: 900;
+  margin-top: 10px;
+  -webkit-box-shadow: 0px 5px 10px -3px rgb(76 6 204 / 73%);
+  box-shadow: 0px 5px 10px -3px rgb(76 6 204 / 73%);
+  margin: 0 auto;
+  margin-top: 10px;
+  background: linear-gradient(
+    -103deg,
+    rgba(147, 57, 255, 1),
+    rgba(254, 44, 43, 1)
+  );
+  transition: 300ms;
+}
+.product-button:hover {
+  background: linear-gradient(
+    90deg,
+    rgba(147, 57, 255, 1) 25%,
+    rgb(235, 222, 251) 50%,
+    rgba(254, 44, 43, 1) 75%
+  );
+  animation: anima 3s ease-in infinite;
+  animation-direction: normal;
+  background-size: 400% 400%;
+}
+@keyframes anima {
+  0% {
+    background-position: 0% 39%;
+  }
+  50% {
+    background-position: 100% 62%;
+  }
+  100% {
+    background-position: 0% 39%;
+  }
+}
+.product_infoitem p {
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+}
